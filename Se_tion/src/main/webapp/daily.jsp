@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>daily_checkList</title>
 <link href="style.css" rel="stylesheet" type="text/css" >
 <link href="daily.css" rel="stylesheet" type="text/css" >
 </head>
@@ -53,8 +53,11 @@
        		 </tr>
        		 
        		<input type="submit" id="submit" value="send">
-       		<label for="submit"><div>Send</div></label>
+       		<label for="submit"><div>Submit</div></label>
+       		
        	</table>
+       		<input type="button" id="submit" value="To List" onclick="location.href='dailyView.jsp'">
+       		<label for="submit"><div>List</div></label>
 		</form>
 	</fieldset>
 

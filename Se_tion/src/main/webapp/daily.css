@@ -17,11 +17,11 @@ table{
 	border: 0px solid;
 }
 
-input[type="submit"]{
+input[type="submit"],input[type="button"]{
         display: none;
         padding: 1em;
       }
-input[type="submit"] + label{
+input[type="submit"] + label,input[type="button"]+label{
         display: block;
         width: 70px;
         height: 30px;
@@ -30,7 +30,7 @@ input[type="submit"] + label{
         position: relative;
         margin: 10px;
       }      
-input[id="submit"] + label:hover{
+input[id="submit"] + label:hover,input[type="button"]+label:hover{
 		display: block;
         width: 70px;
         height: 30px;
